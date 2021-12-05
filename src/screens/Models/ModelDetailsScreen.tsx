@@ -21,7 +21,7 @@ const ModelDetailsScreen = (props: ModelDetailsScreenProps) => {
     const { componentId, modelImage } = props
     const [noteText, setNoteText] = useState<string | any>(null)
     const [isImageInfoVisible, setImageInfoVisible] = useState<boolean>(false)
-    const [isNotesSectionVisible, setNotesSectionVisible] = useState<boolean>(true)
+    const [isNotesSectionVisible, setNotesSectionVisible] = useState<boolean>(false)
 
     const renderModelImageSection = useMemo(() => {
         return (
