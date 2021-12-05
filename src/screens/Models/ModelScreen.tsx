@@ -1,7 +1,6 @@
 import React, { useMemo, useState } from 'react'
-import { StyleSheet, FlatList, View, TextInput, Keyboard, Image, Text } from 'react-native'
+import { StyleSheet, FlatList, View, Text } from 'react-native'
 import colors from '../../assets/colors'
-import Fonts from '../../assets/Fonts'
 import Strings from '../../assets/strings'
 import Header from '../../components/Header'
 import TextInputComponent from '../../components/TextInputComponent'

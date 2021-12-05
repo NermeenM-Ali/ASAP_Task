@@ -21,7 +21,7 @@ interface HeaderProps {
 const WIDTH = Dimensions.get('screen').width
 
 const Header = (props: HeaderProps) => {
-    let { hasRightIcon, headerTitle, isRightIconForDetails, goBack, componentId, RouteName } = props
+    let { hasRightIcon, headerTitle, isRightIconForDetails, goBack, componentId } = props
     return (
         <View style={styles.container}>
             <View style={styles.leftSectionContainer}>
